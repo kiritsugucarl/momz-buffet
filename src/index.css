@@ -4,11 +4,9 @@
     --clr-light: #f1f5f9;
     --clr-dark: #1e1b1b;
     --clr-gray: #d9d9d9;
+    --clr-lightyellow: #fde047;
     --clr-yellow: #fbbf24;
-    --clr-indigo: #3730a3;
-    --clr-maroon: #9f1239;
-    --clr-pink: #f87171;
-    --clr-bluegreen: #0d9488;
+    --clr-bluegreen: #6ee7b7;
 
     /* sizes */
     --size-xxs: 0.5rem; /* 8px */
@@ -41,6 +39,12 @@ body {
     font-family: "Playfair Display", serif;
 }
 
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 img,
 picture,
 video,
@@ -58,4 +62,10 @@ button {
     background: none;
     cursor: pointer;
     color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
 }

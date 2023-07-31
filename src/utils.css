@@ -1,9 +1,10 @@
 .container {
-    max-width: 1535px;
+    max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2rem;
     padding-right: 2rem;
+    flex: 1;
 }
 
 .fullwidth {
@@ -12,6 +13,10 @@
 
 .section {
     margin-top: 10rem;
+}
+
+.primary__btn {
+    background-color: var(--clr-primary);
 }
 
 /* 2xl*/
