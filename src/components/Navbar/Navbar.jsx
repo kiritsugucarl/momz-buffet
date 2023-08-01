@@ -22,16 +22,16 @@ const Navbar = ({isMobileNavOpen, onMobileMenuToggle}) => {
             <nav className="desktop-nav">
                 <ul className="desktop-nav-ul">
                     <li className="desktop-nav-li">
-                        <Link to='/' className="desktop-nav-link">Rates</Link>
+                        <Link to='/rates' className="desktop-nav-link">Rates</Link>
                     </li>
                     <li className="desktop-nav-li">
-                        <Link to='/' className="desktop-nav-link">Food</Link>
+                        <Link to='/foods' className="desktop-nav-link">Food</Link>
                     </li>
                     <li className="desktop-nav-li">
-                        <Link to='/' className="desktop-nav-link">Contact</Link>
+                        <Link to='/contact-us' className="desktop-nav-link">Contact</Link>
                     </li>
                     <li className="desktop-nav-li">
-                        <Link to='/' className="desktop-nav-link">About Us</Link>
+                        <Link to='/about-us' className="desktop-nav-link">About Us</Link>
                     </li>
                 </ul>
             </nav>

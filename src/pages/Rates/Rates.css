@@ -1,0 +1,42 @@
+.rates {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.rates__title {
+    font-size: var(--size-6xl);
+    text-align: center;
+}
+
+.rates__category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.rates__subtitle {
+    font-size: var(--size-3xl);
+}
+
+.rates__subnotice {
+    font-size: var(--size-lg);
+    font-style: italic;
+}
+
+.rates__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rates__unliPlate-item {
+    max-width: 30%;
+}
+
+.rates__offer-img {
+    max-width: var(--size-10xl);
+}
