@@ -77,11 +77,14 @@
 }
 
 .home__review-wrapper {
+    background-color: var(--clr-primary);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
 .home__review-icon {
@@ -97,13 +100,15 @@
 }
 
 .home__review {
-    max-width: 60ch;
-    font-size: var(--size-lg);
+    max-width: 50ch;
+    font-size: var(--size-xl);
     font-style: italic;
+    color: var(--clr-light);
 }
 
 .home__customer-name {
-    font-size: var(--size-base);
+    font-size: var(--size-lg);
+    color: var(--clr-yellow);
     /* font-style: italic; */
     font-weight: bold;
     letter-spacing: 0.15rem;
