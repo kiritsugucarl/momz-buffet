@@ -1,11 +1,25 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import { Link } from "react-router-dom";
+import React , { useState, useEffect } from "react";
+import ReservationPopup from "../ReservationPopup/ReservationPopup";
 
 const UnliPlateCard = ({id, color, img, title, price, offerInclusion}) =>{
     const backgroundColor = {
         backgroundColor: color
     }
+
+    const [showPopup, setShowPopup] = useState(false);
+
+    const handlePopupToggle = () =>{
+        setShowPopup(!showPopup);
+    }
+    
+    useEffect(() => {
+      if(showPopup){
+          document.body.style.overflowY = 'hidden';
+      } else {
+          document.body.style.overflowY = 'auto';
+      }
+  }, [showPopup])
 
     // Split the title string into separate lines based on "<br/>" tags
   const titleLines = title.split('<br/>').map((line, index) => (
@@ -26,7 +40,10 @@ const UnliPlateCard = ({id, color, img, title, price, offerInclusion}) =>{
                     <li className="rates__offer-li" key={index}>{inclusion}</li>
                 ))}
             </ul>
-            <Link className="rates__offer-link primary-btn" to={`/rates-${id}`}>RESERVE</Link>
+            <button className="rates__offer-link primary-btn" onClick={handlePopupToggle}>
+                RESERVE
+            </button>
+            {showPopup && <ReservationPopup id={id} onClose={handlePopupToggle} showPopup={showPopup}/>}
         </div>
     )
 }

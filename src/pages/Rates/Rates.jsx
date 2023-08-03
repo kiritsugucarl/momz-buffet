@@ -1,8 +1,7 @@
 // import { Link } from 'react-router-dom'
 import NormalPlateCard from '../../components/RatesCard/NormalPlateCard'
 import UnliPlateCard from '../../components/RatesCard/UnliPlateCard'
-import normalPlateData from '../../data/normalPlateCard.json'
-import unliPlateData from '../../data/unliPlateRates.json'
+import ratesData from '../../data/ratesData.json'
 import './Rates.css'
 
 const Rates = () => {
@@ -13,7 +12,7 @@ const Rates = () => {
                 <h4 className='rates__subtitle'>UNLI PLATE BUFFET</h4>
                 <p className='rates__subnotice'>(Count is per head, and depending on the paid set and chosen food theme will be the food served)</p>
                 <div className="rates__items">
-                    {unliPlateData.map((unliPlateData) => (
+                    {ratesData.unliPlates.map((unliPlateData) => (
                         <UnliPlateCard
                         key={unliPlateData.id}
                         id={unliPlateData.id}
@@ -30,7 +29,7 @@ const Rates = () => {
                 <h4 className="rates__subtitle">JUST CAME BY MOMENT</h4>
                 <p className='rates__subnotice'>(Count is per head, and depending on the paid set and chosen food theme will be the food served)</p>
                 <div className="rates__items">
-                    {normalPlateData.map((normalPlateData)=>(
+                    {ratesData.normalPlates.map((normalPlateData)=>(
                         <NormalPlateCard
                         key={normalPlateData.id}
                         id={normalPlateData.id}
