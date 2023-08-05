@@ -1,9 +1,10 @@
-
+import FoodMenu from '../../components/FoodMenu/FoodMenu'
+import './Food.css'
 
 const Food = () => {
     return(
-        <main>
-
+        <main className='main container section'>
+            <FoodMenu />
         </main>
     )
 }

@@ -22,6 +22,7 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    min-width: 30%;
 }
 
 .reservation__close-button-wrapper {
@@ -85,9 +86,29 @@
     gap: 1rem;
 }
 
+.reservation__form-time-notice {
+    font-style: italic;
+    font-size: var(--size-sm);
+}
+
 .reservation__payment-method-item-container {
     display: flex;
     gap: 1rem;
+}
+
+.reservation__payment-method-item {
+    transform: scale(2);
+    accent-color: var(--clr-primary);
+}
+
+.reservation__payment-method-name {
+    font-size: var(--size-xl);
+}
+
+.reservation__payment-method-number,
+.reservation__form-date,
+.reservation__form-time {
+    border: 3px solid var(--clr-primary);
 }
 
 .reservation__payment-button-container {
@@ -99,4 +120,38 @@
 .reservation__payment-button {
     font-size: var(--size-2xl);
     border-radius: 1rem;
+}
+
+.notification__container {
+    position: fixed;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--clr-success);
+    padding: 1rem;
+    border: 1px solid var(--clr-dark);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+    opacity: 0; /* Initially set to transparent */
+    transition: opacity 1s ease; /* Add a transition for smooth fade-in/out */
+}
+
+.notification__container.show {
+    opacity: 1;
+}
+
+.notification__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--clr-light);
+}
+
+.notification__notice-header {
+    font-size: var(--size-2xl);
+}
+
+.notificatioN__notice {
+    font-size: var(--size-lg);
 }
