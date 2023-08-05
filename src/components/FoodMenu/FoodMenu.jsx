@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import foodsData from '../../data/foodsData.json';
 import './FoodMenu.css'
 
@@ -20,8 +21,10 @@ const FoodMenu = () => {
                     </div>
                 ))}
                     </div>
+                    <Link to='/rates' className='foods__button primary-btn'>Reserve Now!</Link>
                 </>
             ))}
+            
         </div>
     )
 }

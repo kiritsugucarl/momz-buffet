@@ -54,3 +54,8 @@
 .foods__item-li::before {
     content: "🍴 ";
 }
+
+.foods__button {
+    font-size: var(--size-3xl);
+    border-radius: 1rem;
+}

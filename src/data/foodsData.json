@@ -136,6 +136,38 @@
                 "Ingredients 2",
                 "Ingredients 3"
             ]
+        },
+        {
+            "id": 2,
+            "img": "https://www.thespruceeats.com/thmb/CkzlxmRyeK8IUrMrHrbq73RX4g4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-tempura-for-fish-and-seafood-1300531-hero-01-bbd91b4ee23940749fec5ab7693eadcc.jpg",
+            "name": "Tempura",
+            "ingredients": [
+                "Ingredients"
+            ]
+        },
+        {
+            "id": 3,
+            "img": "https://www.justonecookbook.com/wp-content/uploads/2013/10/Takoyaki-NEW-500x375.jpg",
+            "name": "Takoyaki",
+            "ingredients": [
+                "Ingredients"
+            ]
+        },
+        {
+            "id": 4,
+            "img": "https://www.justonecookbook.com/wp-content/uploads/2023/04/Spicy-Shoyu-Ramen-8055-I.jpg",
+            "name": "Ramen",
+            "ingredients": [
+                "Ingredients"
+            ]
+        },
+        {
+            "id": 5,
+            "img": "https://www.justonecookbook.com/wp-content/uploads/2020/01/Ochazuke-9037-I.jpg",
+            "name": "Ochazuke",
+            "ingredients": [
+                "Ingredients"
+            ]
         }
     ],
     "Diet Set": [
@@ -147,6 +179,30 @@
                 "Ingredients 1",
                 "Ingredients 2",
                 "Ingredients 3"
+            ]
+        },
+        {
+            "id": 2,
+            "img": "https://cafedelites.com/wp-content/uploads/2018/03/Sheet-Pan-Salmon-1.jpg",
+            "name": "Butter Baked Salmon",
+            "ingredients": [
+                "Ingredients"
+            ]
+        },
+        {
+            "id": 3,
+            "img": "https://www.cookingclassy.com/wp-content/uploads/2019/10/jambalaya-23.jpg",
+            "name": "Jambalaya",
+            "ingredients": [
+                "Ingredients"
+            ]
+        },
+        {
+            "id": 4,
+            "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/salad.jpg",
+            "name": "Salad",
+            "ingredients": [
+                "Ingredients"
             ]
         }
     ]
