@@ -1,11 +1,13 @@
 import foodsData from '../../data/foodsData.json';
+import './FoodMenu.css'
 
 const FoodMenu = () => {
     return(
         <div className="foods__menu-container">
             {Object.entries(foodsData).map(([category, items]) => (
+                <>
+                <h1 className='foods__menu-category'>{category}</h1>
                 <div key={category} className='foods__menu-wrapper'>
-                    <h1>{category}</h1>
                 {items.map(item=> (
                     <div key={item.id} className='foods__item-wrapper'>
                         <img src={item.img} className='foods__item-img'/>
@@ -17,7 +19,8 @@ const FoodMenu = () => {
                         </ul>
                     </div>
                 ))}
-                </div>
+                    </div>
+                </>
             ))}
         </div>
     )

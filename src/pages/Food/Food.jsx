@@ -3,7 +3,7 @@ import './Food.css'
 
 const Food = () => {
     return(
-        <main className='main container section'>
+        <main className='foods container section'>
             <FoodMenu />
         </main>
     )
