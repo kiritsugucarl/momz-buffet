@@ -37,6 +37,12 @@
 .foods__item-img {
     width: 25rem;
     height: 25rem;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+}
+
+.foods__item-img:hover {
+    filter: brightness(30%);
 }
 
 .foods__item-name {

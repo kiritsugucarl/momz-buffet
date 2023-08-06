@@ -5,11 +5,8 @@ import './Food.css'
 const Food = () => {
     return(
         <main className='foods container section'>
+            <h1 className='foods__h1'>FOOD LIST AVAILABLE:</h1>
             <FoodMenu />
-
-            <div className="foods__button-wrapper">
-                
-            </div>
         </main>
     )
 }
