@@ -1,0 +1,55 @@
+{
+    "unliPlates": [
+        {
+            "id": 1,
+            "color": "#bae6fd",
+            "img": "https://cdn-icons-png.flaticon.com/512/8131/8131340.png",
+            "title": "UNLI PLATES & FRIEND SERVING",
+            "price": "₱ 1500.00",
+            "offerInclusion": [
+                "Access to the ff food: Common, Visitor, 5 Specialty Dishes, 3 Royal Dishes of 2 given theme",
+                "Unlimited Plates for 1.5 hours"
+            ]
+        },
+        {
+            "id": 2,
+            "color": "#fecdd3",
+            "img": "https://cdn-icons-png.flaticon.com/512/2385/2385856.png",
+            "title": "UNLI PLATES & KING SERVING",
+            "price": "₱ 2000.00",
+            "offerInclusion": [
+                "Access to all types of food of 3 given theme",
+                "Unlimited Plates for 2 hours"
+            ]
+        },
+        {
+            "id": 3,
+            "color": "#d9f99d",
+            "img": "https://cdn-icons-png.flaticon.com/512/2744/2744337.png",
+            "title": "UNLI PLATES & VISITOR SERVING",
+            "price": "₱ 1000.00",
+            "offerInclusion": [
+                "Access to the ff food: Common, Visitor, 3 Specialty Dishes, 2 Royal Dishes of given theme",
+                "Unlimited Plates for 1 hour"
+            ]
+        }
+    ],
+    "normalPlates": [
+        {
+            "id": 4,
+            "color": "#FEF08A",
+            "img": "https://icons-for-free.com/iconfiles/png/512/fast+flash+good+light+speed+icon-1320195378845312678.png",
+            "title": "EXPRESS FOOD",
+            "price": "₱ 400.00",
+            "description": "Fast-cook foods perfect for people in rush or just want to try the food of their chosen theme under express category. Only one theme can be chosen"
+        },
+        {
+            "id": 5,
+            "color": "#C7D2FE",
+            "img": "https://cdn-icons-png.flaticon.com/512/1886/1886722.png",
+            "title": "QUALITY FOOD",
+            "price": "₱ 550.00",
+            "description": "Quality foods that are for people who can wait and wants to try the food of their chosen theme. Only one theme can be chosen."
+        }
+    ]
+}

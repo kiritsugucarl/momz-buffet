@@ -1,0 +1,157 @@
+/* Add this to your CSS file */
+
+.reservation__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the background */
+    z-index: 9999; /* Make sure the popup appears above other content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--clr-gray);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    min-width: 30%;
+}
+
+.reservation__close-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid var(--clr-dark);
+}
+
+.close__button {
+    font-size: var(--size-2xl);
+    transition: color 0.3s;
+}
+
+.close__button:hover {
+    color: var(--clr-primary);
+}
+
+.reservation__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.reservation__id {
+    font-size: var(--size-4xl);
+}
+
+.reservation__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reservation__title {
+    font-size: var(--size-2xl);
+}
+
+.reservation__form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reservation__form-item-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.reservation__form-label {
+    font-weight: bold;
+    font-size: var(--size-xl);
+}
+
+.reservation__payment-method {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reservation__form-time-notice {
+    font-style: italic;
+    font-size: var(--size-sm);
+}
+
+.reservation__payment-method-item-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.reservation__payment-method-item {
+    transform: scale(2);
+    accent-color: var(--clr-primary);
+}
+
+.reservation__payment-method-name {
+    font-size: var(--size-xl);
+}
+
+.reservation__payment-method-number,
+.reservation__form-date,
+.reservation__form-time {
+    border: 3px solid var(--clr-primary);
+}
+
+.reservation__payment-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation__payment-button {
+    font-size: var(--size-2xl);
+    border-radius: 1rem;
+}
+
+.notification__container {
+    position: fixed;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--clr-success);
+    padding: 1rem;
+    border: 1px solid var(--clr-dark);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+    opacity: 0; /* Initially set to transparent */
+    transition: opacity 1s ease; /* Add a transition for smooth fade-in/out */
+}
+
+.notification__container.show {
+    opacity: 1;
+}
+
+.notification__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--clr-light);
+}
+
+.notification__notice-header {
+    font-size: var(--size-2xl);
+}
+
+.notificatioN__notice {
+    font-size: var(--size-lg);
+}

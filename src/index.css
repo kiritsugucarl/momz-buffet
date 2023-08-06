@@ -1,14 +1,16 @@
 :root {
     /* colors */
     --clr-primary: #075985;
+    --clr-primary-hover: #177cb2;
     --clr-light: #f1f5f9;
     --clr-dark: #1e1b1b;
     --clr-gray: #d9d9d9;
+    --clr-lightyellow: #fde047;
     --clr-yellow: #fbbf24;
-    --clr-indigo: #3730a3;
-    --clr-maroon: #9f1239;
-    --clr-pink: #f87171;
-    --clr-bluegreen: #0d9488;
+    --clr-bluegreen: #6ee7b7;
+    --clr-rose: #f87171;
+    --clr-rose-hover: #e35b5b;
+    --clr-success: #059669;
 
     /* sizes */
     --size-xxs: 0.5rem; /* 8px */
@@ -39,6 +41,13 @@ html {
 
 body {
     font-family: "Playfair Display", serif;
+    background-color: var(--clr-light);
+}
+
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 img,
@@ -58,4 +67,22 @@ button {
     background: none;
     cursor: pointer;
     color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
 }

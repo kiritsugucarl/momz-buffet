@@ -1,0 +1,15 @@
+.foods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.foods__h1 {
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
+    padding: 1rem;
+    font-size: var(--size-6xl);
+    border-radius: 1rem;
+}
