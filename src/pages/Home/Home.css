@@ -113,3 +113,132 @@
     font-weight: bold;
     letter-spacing: 0.15rem;
 }
+
+/* 2xl*/
+/* @media (max-width: 1536px) {} */
+
+/* xl */
+@media (max-width: 1280px) {
+    .home__title {
+        font-size: var(--size-6xl);
+    }
+
+    .home__p {
+        font-size: var(--size-lg);
+    }
+
+    .home__btn {
+        font-size: var(--size-base);
+    }
+
+    .home__review-subtitle {
+        font-size: var(--size-2xl);
+    }
+
+    .home__review-icon {
+        width: var(--size-9xl);
+        height: var(--size-9xl);
+    }
+
+    .home__review {
+        font-size: var(--size-lg);
+    }
+
+    .home__customer-name {
+        font-size: var(--size-base);
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .home {
+        gap: 1.5rem;
+    }
+
+    .home__title {
+        font-size: var(--size-5xl);
+    }
+
+    .home__p {
+        font-size: var(--size-base);
+    }
+
+    .home__btn {
+        font-size: var(--size-sm);
+    }
+
+    .home__review-subtitle {
+        font-size: var(--size-xl);
+    }
+
+    .home__review-icon {
+        width: var(--size-8xl);
+        height: var(--size-8xl);
+    }
+
+    .home__review-container {
+        gap: 1.5rem;
+    }
+
+    .home__review-wrapper {
+        padding: 1rem;
+    }
+
+    .home__review {
+        font-size: var(--size-base);
+    }
+
+    .home__customer-name {
+        font-size: var(--size-sm);
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .home {
+        gap: 1rem;
+    }
+
+    .home__review-container {
+        gap: 1rem;
+    }
+
+    .home__review-wrapper {
+        padding: 0.7rem;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .home__title {
+        font-size: var(--size-4xl);
+    }
+
+    .home__p {
+        font-size: var(--size-sm);
+    }
+
+    .home__btn {
+        font-size: var(--size-xs);
+    }
+
+    .home__review-subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .home__review-icon {
+        width: var(--size-7xl);
+        height: var(--size-7xl);
+    }
+
+    .home__review {
+        font-size: var(--size-sm);
+    }
+
+    .home__customer-name {
+        font-size: var(--size-xs);
+    }
+}
+
+/* xs */
+/* @media (max-width: 475px) {} */
