@@ -60,3 +60,112 @@
     font-size: var(--size-lg);
     font-style: italic;
 }
+
+/* 2xl*/
+/* @media (max-width: 1536px) {} */
+
+/* xl */
+@media (max-width: 1280px) {
+    .about__title {
+        font-size: var(--size-3xl);
+    }
+
+    .about__img {
+        width: var(--size-9xl);
+        height: var(--size-9xl);
+    }
+
+    .about__details-subtitle {
+        font-size: var(--size-xl);
+    }
+
+    .about__details-p {
+        font-size: var(--size-base);
+    }
+
+    .about__details-footer-subtitle {
+        font-size: var(--size-xl);
+    }
+
+    .about__details-footer-p {
+        font-size: var(--size-base);
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .about__title {
+        font-size: var(--size-2xl);
+    }
+
+    .about__img {
+        width: var(--size-8xl);
+        height: var(--size-8xl);
+    }
+
+    .about__details-subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .about__details-p {
+        font-size: var(--size-sm);
+    }
+
+    .about__details-footer-subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .about__details-footer-p {
+        font-size: var(--size-sm);
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .about {
+        gap: 1rem;
+    }
+    .about__details-container {
+        gap: 1rem;
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .about__details-wrapper {
+        gap: 0.75rem;
+    }
+    .about__details-footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .about__title {
+        font-size: var(--size-xl);
+    }
+
+    .about__img {
+        width: var(--size-7xl);
+        height: var(--size-7xl);
+    }
+
+    .about__details-subtitle {
+        font-size: var(--size-base);
+    }
+
+    .about__details-p {
+        font-size: var(--size-xs);
+    }
+
+    .about__details-footer-subtitle {
+        font-size: var(--size-base);
+    }
+
+    .about__details-footer-p {
+        font-size: var(--size-xs);
+    }
+}
+
+/* xs */
+/* @media (max-width: 475px) {} */
