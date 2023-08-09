@@ -1,8 +1,12 @@
-# React + Vite
+# momz-buffet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mock-up ReactJS CSS E-commerce site featuring a buffet restaurant.
+Live demo: <a href="https://momz-buffet.vercel.app/"> https://momz-buffet.vercel.app/ </a>
 
-Currently, two official plugins are available:
+# technologies
+- :electron: ReactJS
+- ⚡ Vite
+- 🖌️ CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# logs
+- August 9, 2023: Release of v1
