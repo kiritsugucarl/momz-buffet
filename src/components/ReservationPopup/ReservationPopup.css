@@ -19,8 +19,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--clr-gray);
-    padding: 20px;
-    border-radius: 5px;
+    padding: 1rem;
+    border-radius: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     min-width: 30%;
 }
@@ -152,6 +152,120 @@
     font-size: var(--size-2xl);
 }
 
-.notificatioN__notice {
+.notification__notice {
     font-size: var(--size-lg);
 }
+
+/* 2xl*/
+/* @media (max-width: 1536px) {} */
+
+/* xl */
+@media (max-width: 1280px) {
+    .close__button {
+        font-size: var(--size-xl);
+    }
+
+    .reservation__id {
+        font-size: var(--size-3xl);
+    }
+
+    .reservation__title {
+        font-size: var(--size-xl);
+    }
+
+    .reservation__form-label {
+        font-size: var(--size-lg);
+    }
+
+    .reservation__payment-method-name {
+        font-size: var(--size-lg);
+    }
+
+    .reservation__payment-button {
+        font-size: var(--size-xl);
+    }
+
+    .notification__notice-header {
+        font-size: var(--size-xl);
+    }
+
+    .notification__notice {
+        font-size: var(--size-base);
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .close__button {
+        font-size: var(--size-lg);
+    }
+
+    .reservation__id {
+        font-size: var(--size-2xl);
+    }
+
+    .reservation__title {
+        font-size: var(--size-lg);
+    }
+
+    .reservation__form-label {
+        font-size: var(--size-base);
+    }
+
+    .reservation__payment-method-name {
+        font-size: var(--size-base);
+    }
+
+    .reservation__payment-button {
+        font-size: var(--size-lg);
+    }
+
+    .notification__notice-header {
+        font-size: var(--size-lg);
+    }
+
+    .notification__notice {
+        font-size: var(--size-sm);
+    }
+}
+
+/* md */
+/* @media (max-width: 768px) {} */
+
+/* sm */
+@media (max-width: 640px) {
+    .close__button {
+        font-size: var(--size-base);
+    }
+
+    .reservation__id {
+        font-size: var(--size-xl);
+    }
+
+    .reservation__title {
+        font-size: var(--size-base);
+    }
+
+    .reservation__form-label {
+        font-size: var(--size-sm);
+    }
+
+    .reservation__payment-method-name {
+        font-size: var(--size-sm);
+    }
+
+    .reservation__payment-button {
+        font-size: var(--size-base);
+    }
+
+    .notification__notice-header {
+        font-size: var(--size-base);
+    }
+
+    .notification__notice {
+        font-size: var(--size-xs);
+    }
+}
+
+/* xs */
+/* @media (max-width: 475px) {} */

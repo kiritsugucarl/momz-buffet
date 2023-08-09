@@ -24,7 +24,6 @@ const FoodMenu = () => {
                     <Link to='/rates' className='foods__button primary-btn'>Reserve Now!</Link>
                 </>
             ))}
-            
         </div>
     )
 }
